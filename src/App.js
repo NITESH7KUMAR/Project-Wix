@@ -1,11 +1,13 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Navbarhome from "./Components/Navbar/Navbar.js";
 
 function App() {
   return (
-   <div>
-    Nitesh
-   </div>
+    <Router>
+     <Navbarhome/> 
+    </Router>
   );
 }
 
