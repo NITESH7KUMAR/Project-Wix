@@ -14,7 +14,7 @@ function Navbarhome() {
           <li><a href="/Expertise">Expertise</a></li>
           <li><a href="/Contact">Contact</a></li>
         </ul>
-        <div className="logo">Humaan</div>
+        <div className="logo1">Humaan</div>
       </nav>
     </header>
     </body>
