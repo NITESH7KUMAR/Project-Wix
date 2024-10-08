@@ -12,7 +12,7 @@
     font-style: normal;
     font-weight: 500;
     color: black;
-    line-height: 0.8;
+    line-height: 0.9;
     flex-wrap: flex;
     margin-top: 98px;
     margin-left:50px ;
@@ -28,4 +28,9 @@
         margin-top: 150px;
        
     }
+}
+
+
+.home h2{
+    background-color: rgb(105, 223, 105);
 }
