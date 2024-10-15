@@ -1,10 +1,11 @@
 import React from 'react';
 import './Home.css';
+import Hcarousel from './Hcarousel';
 import {
   img1, img2, img3, img4, img5,
-  img6, img7, img8, img9, img10,
-  img11, img12, img13, img14
+  img6
 } from "../assets";
+
 
 function Home() {
   return (
@@ -19,7 +20,7 @@ function Home() {
         <div className='h2'>
           <h2>We design, build and ship world-class digital products for forward-thinking brands.</h2>
         </div>
-        <div className='home-image'>
+        <div className='slide1'>
           <img src={img3} alt="Digital Experience" />
           <img src={img4} alt="Digital Experience" />
           <img src={img5} alt="Digital Experience" />
@@ -36,22 +37,20 @@ function Home() {
              and unlock potential for our clients. Our independent spirit drives our creative energy and approach 
              to technology, allowing us to ensure quality and consistently deliver outstanding outcomes.</h5>
         </div>
-        <div>
+        <div className='Hcarousel'>
           <h1>What's New</h1>
-          <div className='home-image'>
-            <img src={img7} alt="Digital Experience" />
-            <img src={img8} alt="Digital Experience" />
-            <img src={img9} alt="Digital Experience" />
-            <img src={img10} alt="Digital Experience" />
-            <img src={img11} alt="Digital Experience" />
-            <img src={img12} alt="Digital Experience" />
-            <img src={img13} alt="Digital Experience" />
-            <img src={img14} alt="Digital Experience" />
-          </div>
+          <Hcarousel/>
+          <h1> .............. </h1>
         </div>
+        <h1>Nitesh Is Good Boy</h1>
       </div>
+     
     </>
   );
-}
+ 
+   
+ 
+
+};
 
 export default Home;
