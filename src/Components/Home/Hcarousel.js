@@ -6,7 +6,14 @@ import{
 } from '../assets';
 
 const images = [
-    img7, img8, img9, img10, img11, img12, img13, img14
+    { src: img7, caption: "Surveillance Watch: An interactive data visualisation highlighting global surveillance connections" },
+    { src: img8, caption: "Unearthed: An all new website to showcase the teams expertise across innovation in the resources sector." },
+    { src: img9, caption: "umaaniversary: Celebrating 14 years of making extraordinary digital products with our incredible team." },
+    { src: img10, caption: "My Mind Check: An evidence-based digital mental health and wellbeing check-in for Australian schools."},
+    { src: img11, caption: "Fair Go Finance: Flexible personal finance has an all new website." },
+    { src: img12, caption: "Australian Web Awards: 15 nominations and 2 wins, including Best in show: Design" },
+    { src: img13, caption: "Unearthed: An all new website to showcase the teams expertise across innovation in the resources sector." },
+    { src: img14, caption: "My Mind Check: An evidence-based digital mental health and wellbeing check-in for Australian schools."},
 ];
 
 const Hcarousel = () =>{
@@ -34,7 +41,8 @@ const Hcarousel = () =>{
                 >
                     {images.map((image,index) =>(
                         <div className='slides2' key={index}>
-                            <img src={image} alt={`Digital Experience ${index+1}` } />
+                            <img src={image.src} alt={`Digital Experience ${index+1}` } />
+                            <p className="image-caption">{image.caption}</p>
                         </div>
                     ))}
     

@@ -38,6 +38,14 @@
     height: 95%;
     object-fit: cover;
     border-radius: 10px; 
+    cursor: pointer;
+  }
+
+  .slides1 .image-caption {
+    width: 90%;
+    height: 95%;
+    object-fit: cover;
+    border-radius: 10px; 
   }
   
   .nav-button {
@@ -50,7 +58,7 @@
   box-shadow: 4px 4px 10px rgba(189, 144, 144, 0.5);
   transition: transform 0.3s, box-shadow 0.3s;
   position: absolute;
-  top: 50%;
+  top: 30%;
   z-index: 10;
 
   }
@@ -61,6 +69,22 @@
   .nav-button.next{
     right: 12px;
   }
+
+  .slides2 {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+}
+
+.image-caption {
+    margin-top: 15px; 
+    font-size: 1em; 
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 100px;
+}
   
   .nav-button:hover {
     background-color: #bc3e3e;
