@@ -2,14 +2,18 @@
    /* CSS */
    body{
     background-color:#f0f0f0;
+    padding-top: 70px;
    }
 
    .header {
-    background-color: #f0f0f0; 
+    background-color: white;; 
     padding: 10px;
     text-align: center;
     height: 50px;
-    position:relative;
+    position:fixed;
+    top: 0; 
+    width: 100%;
+     z-index: 1000;
   }
 
   .navbar {
@@ -17,6 +21,8 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
+    
+   
   }
   
   .logo {
@@ -39,7 +45,7 @@
   }
 
   .nav-links {
-    background-color: #fcfafa;
+    background-color: #f6eeee;
     /* background-color: teal; */
     display: flex;
     justify-content: space-between; 
@@ -57,7 +63,7 @@
   
   .nav-links li {
     background-color: transparent; 
-    padding: 5px 10px;
+    padding: 4px 10px;
     border-radius: 50px;
     transition: background-color 0.1s ease;
 
@@ -66,7 +72,7 @@
     z-index: 1000;
   }
   .nav-links li:hover {
-    background-color: #e7e4e4;
+    background-color: #dbd2d2;
     padding: 4px 10px; 
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.1);  */
   }

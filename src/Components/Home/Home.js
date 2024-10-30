@@ -38,6 +38,9 @@ function Home() {
         <h2>Great work for<br/> great people.</h2>
         
         <div className='home-content'>
+        <div className='about-image'>
+            <img src={img2} alt="Digital Experience" />
+          </div>
           <div className='about-content1'>
             <h5>We put people first, understanding that a well-crafted product significantly impacts the lives
              of those who use it. By empowering users, we’re able to solve unique problems, accelerate progress 
@@ -45,9 +48,7 @@ function Home() {
              to technology, allowing us to ensure quality and consistently deliver outstanding outcomes.</h5>
             <button>About Us</button>
           </div>
-          <div className='about-image'>
-            <img src={img2} alt="Digital Experience" />
-          </div>
+          
           </div>  
         </div>
         <div className='Hcarousel'>

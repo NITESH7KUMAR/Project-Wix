@@ -92,3 +92,36 @@
     box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.7);
   }
   
+
+  @media (max-width: 990px) { 
+    .slides2 {
+        min-width: 50%;
+    }
+}
+
+@media (max-width: 767px) { 
+    .slides2 {
+        min-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-button {
+        font-size: 1.2em;
+        padding: 8px;
+    }
+    .slides2{
+      justify-content: center;
+      min-width: 70%;
+    }
+    .image-caption {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 652px) { 
+  .slides2 {
+      min-width: 90%;
+      height: 90%;
+  }
+}
