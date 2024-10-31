@@ -10,7 +10,7 @@
   display: none;
   position: absolute;
   background-color:#fcfafa;
-  min-width: 160px;
+  min-width: 161px;
   justify-content: left;
   left: 50%;
   transform: translateX(-50%);
@@ -56,8 +56,8 @@
 /* Show dropdown content when toggled */
 .dropdown-content.show {
   display: block;
-  top: 11%; 
-  left: -39.5%;
+  top: -15%; 
+  left: -39.29%;
   transform: translateX(-50%);
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
