@@ -107,7 +107,7 @@
 
 @media (max-width: 690px) { 
   .slides2 {
-      min-width: 95%;
+      min-width: 90%;
       height: 80%;   
   }
 
@@ -126,6 +126,12 @@
     right: 20px;
   }
 }
+@media (max-width: 525px) { 
+  .slides2 {
+      min-width: 70%;
+      height: 80%;
+  }
+}
 
 @media (max-width: 480px) {
     .nav-button {
@@ -139,14 +145,14 @@
 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .nav-button {
       font-size: 1.2em;
       padding: 8px;
   }
   .slides2{
     justify-content: center;
-    min-width: 50%;
+    min-width: 55%;
     height: 80%;
   }
   @media (max-width: 400px) {
