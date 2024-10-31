@@ -91,7 +91,7 @@
     width: 330px;
   }
   .dropdown-content.show{
-    top: -1615%;
+    top: -1600%;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 0;
