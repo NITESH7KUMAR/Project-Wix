@@ -6,7 +6,7 @@ body{
    }
 
 .header {
-    background-color: white;; 
+    background-color: rgb(115, 204, 215);; 
     padding: 10px;
     text-align: center;
     height: 50px;
@@ -45,7 +45,7 @@ body{
     cursor:pointer;
   }
   .nav-links {
-    background-color: #3c9ba8;
+    background-color: white;
       /* background-color: teal; */
     display: flex;
     justify-content: center; 
