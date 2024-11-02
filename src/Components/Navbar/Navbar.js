@@ -11,7 +11,7 @@ function Navbarhome() {
           <li className='nav-links1'><a href="/Home">Home</a></li>
           <li className='nav-links1'><a href="/About">About</a></li>
           <li className='nav-links1'><a href="/Work">Work</a></li>
-          <li className='n'><Expertise/></li>
+          <li className='nav-linkss1 expertise-link '><Expertise/></li>
           <li className='nav-links1'><a href="/Contact">Contact</a></li>
         </div>
         <div className="logo1">Humaan</div>  
