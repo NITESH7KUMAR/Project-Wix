@@ -2,7 +2,7 @@
 
 .home {
     text-align: center;
-    background-color: #f0f0f0;
+    background-color: #f0efef;
 }
 
 .home h1 {
@@ -133,14 +133,20 @@ cursor:pointer;
 }
 
 .Hcarousel{
-    background-color: rgb(184, 219, 184,09);
+    position: relative;
+    background-color: rgb(184, 219, 184,0.9);
     border-bottom-right-radius: 12%;
     border-bottom-left-radius: 12%;
     padding-top: 10px;
+    z-index: 1;
 }
 
 .Hcarousel h1{
     font-size: 4em;
+}
+.Footer{
+    z-index: 0;
+    position: relative;
 }
 
 /* Responsive styles */

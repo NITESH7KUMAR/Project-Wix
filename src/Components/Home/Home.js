@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import Hcarousel from './Hcarousel';
+import Footer from '../Footer/Footer';
 import {
   img1, img2, img3, img4, img5,
   img6
@@ -55,9 +56,10 @@ function Home() {
           <h1>What's New</h1>
           <Hcarousel/>
         </div>
-  
-          <h1>Footer</h1>
-      </div>
+        <div className='Footer'>
+        <Footer/>
+        </div>
+    </div>
 
   );
  

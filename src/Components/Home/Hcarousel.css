@@ -9,6 +9,7 @@
     margin: auto;
     overflow: hidden;
     position: relative;
+ 
   }
   
   .container1 {
@@ -16,6 +17,7 @@
     overflow: hidden;
     display: flex;
     flex-direction: row;
+  
   }
   
   .slides1 {
