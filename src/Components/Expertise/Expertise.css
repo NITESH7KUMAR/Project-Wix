@@ -9,7 +9,7 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color:#fcfafa;
+  background-color:white;
   min-width: 161px;
   justify-content: left;
   left: 50%;
@@ -21,7 +21,7 @@
 /* Dropdown button */
 .dropbtn {
   background-color: transparent;
-  padding: 4px 10px;
+  padding: 4.5px 10px;
   font-size: 15px;
   border: none;
   cursor: pointer;
